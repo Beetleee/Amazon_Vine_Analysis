@@ -35,9 +35,11 @@
 ![](https://github.com/Beetleee/Amazon_Vine_Analysis/blob/main/Resources/Plot9.png)
 
 ### -How many Vine reviews and non-Vine reviews were there?
--	There was a total of 22 Vine reviews, and 26,987 non-Vine Reviews.
-![](https://github.com/Beetleee/Amazon_Vine_Analysis/blob/main/Resources/Plot10.png)
+-	There was a total of 22 Vine reviews, and 26,987 non-Vine Reviews.           
+![](https://github.com/Beetleee/Amazon_Vine_Analysis/blob/main/Resources/Plot10.png)  
+
 ![](https://github.com/Beetleee/Amazon_Vine_Analysis/blob/main/Resources/Plot11.png)
+
 ### -How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
 -	There were 13 Vine 5-star reviews, and 14,475 non-Vine Reviews.
 ![](https://github.com/Beetleee/Amazon_Vine_Analysis/blob/main/Resources/Plot12.png)
