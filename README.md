@@ -1,6 +1,6 @@
 # Module 16  Amazon_Vine_Analysis
-### by Terra Lasho 
-## Overview of the Analysis: For this project, I have been asked to perform an analysis on the Amazon reviews written by members of the Amazon Vine program for a specific product. This program allows manufacturers and publishers to obtain reviews for their products.  I will have access to ~50 datasets, each specific to a certain product.  I will pick one (amazon_reviews_us_Shoes_v1_00.tsv.gz), and with the help of PySpark, I will perform the ETL process (extract the data, transform[to an AWS RDS instance], and load the data [into pgAdmin]). After this is completed, I will interrogate the reviews using PySpark to determine if there is any bias in the reviews from members in the Vine program.
+#### by Terra Lasho 
+### Overview of the Analysis: For this project, I have been asked to perform an analysis on the Amazon reviews written by members of the Amazon Vine program for a specific product. This program allows manufacturers and publishers to obtain reviews for their products.  I will have access to ~50 datasets, each specific to a certain product.  I will pick one (amazon_reviews_us_Shoes_v1_00.tsv.gz), and with the help of PySpark, I will perform the ETL process (extract the data, transform[to an AWS RDS instance], and load the data [into pgAdmin]). After this is completed, I will interrogate the reviews using PySpark to determine if there is any bias in the reviews from members in the Vine program.
 ## Results
 ### Deliverable 1: Perform ETL on Amazon Product Reviews
 -	For Deliverable 1, I extracted an Amazon review dataset as a DataFrame:
