@@ -4,14 +4,19 @@
 ## Results
 ### Deliverable 1: Perform ETL on Amazon Product Reviews
 -	For Deliverable 1, I extracted an Amazon review dataset as a DataFrame:
-![](https://github.com/Beetleee/Amazon_Vine_Analysis/blob/main/Resources/plot1.png)
- ![](https://github.com/Beetleee/Amazon_Vine_Analysis/blob/main/Resources/plot5.png)
+![](https://github.com/Beetleee/Amazon_Vine_Analysis/blob/main/Resources/Plot1.png)
+
+![](https://github.com/Beetleee/Amazon_Vine_Analysis/blob/main/Resources/Plot5.png)
+
 -	I next created a new database with Amazon RDS:
-![](https://github.com/Beetleee/Amazon_Vine_Analysis/blob/main/Resources/plot2.png)
+
+![](https://github.com/Beetleee/Amazon_Vine_Analysis/blob/main/Resources/Plot2.png)
+
 -	I next linked this database to pgAdmin:
-![](https://github.com/Beetleee/Amazon_Vine_Analysis/blob/main/Resources/plot3.png)
+
+![](https://github.com/Beetleee/Amazon_Vine_Analysis/blob/main/Resources/Plot3.png)
 -	I next ran a new query to create four tables (using a provided challenge_schema.sql) in pgAdmin 
-![](https://github.com/Beetleee/Amazon_Vine_Analysis/blob/main/Resources/plot4.png)
+![](https://github.com/Beetleee/Amazon_Vine_Analysis/blob/main/Resources/Plot4.png)
 -	Next, see the attached Google Colab Notebook (Amazon_Reviews_ETL), where I created specific DataFrames with extracted information corresponding to the tables created in pgAdmin.  Finally, I wrote these DataFrames into each table in pgAdmin using .write.jdbc (see Amazon_Reviews_ETL).
 ### Deliverable 2: Perform ETL on Amazon Product Reviews
 -	For Deliverable 2, I used PySpark and created a new Google Colab Notebook (see Vine_Analysis.ipynb). With this, I first extracted the same dataset as in Deliverable 1, then proceeded to filter this data so that I could answer several specific questions listed below.
